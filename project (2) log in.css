@@ -1,0 +1,142 @@
+body{
+    height: 100vh;
+    background-image: url("C:/Users/User/Private/private - ahmad/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.header{
+    height: 25vh;
+}
+
+.containor{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box{
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_header{
+    margin: 10px;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.inputs-containor{
+    width: 500px;
+}
+
+
+input{
+    width: 95%;
+    height: 50px;
+    padding: 0 10px;
+    color: white;
+    font-size: larger;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 1px 1px lightskyblue;
+}
+
+.uinput,.pinput{
+    position: relative;
+}
+
+
+#user{
+    margin: 30px 0;
+}
+
+
+
+#iu{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+#ip{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.links{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0;
+}
+
+
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+#sub{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+input::placeholder{
+    color: white;
+}
+
+
+.box:hover{
+    border: 1px solid lightskyblue;
+    transition: 0.2s;
+}
+
+
+.box:hover .title{
+    color: lightskyblue;
+    text-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+
+.box:hover i {
+    text-shadow: 1px 2px 3px aliceblue;
+}
+
+a:active{
+    color: purple;
+}
+
+
+#sub:active{
+    background-color: aqua;
+    scale: 0.9;
+}
+
+i , a ,#sub{
+    cursor: pointer;
+}
+
