@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background-image: url("C:/Users/User/Private/private - ahmad/stars.jpg");
+    background-image: url("https://news.mit.edu/sites/default/files/images/202405/MIT-Oldest-Stars-01-press.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -139,4 +139,5 @@ a:active{
 i , a ,#sub{
     cursor: pointer;
 }
+
 
